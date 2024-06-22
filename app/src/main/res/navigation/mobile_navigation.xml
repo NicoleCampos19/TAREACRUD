@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/tickets">
+
+    <fragment
+        android:id="@+id/navigation_ticket"
+        android:name="emily.jacobo.crudhelpdesk.ui.ticket.TicketFragment"
+        android:label="Ticket"
+        tools:layout="@layout/fragment_ticket" />
+
+    <fragment
+        android:id="@+id/navigation_bandeja"
+        android:name="emily.jacobo.crudhelpdesk.ui.bandeja.BandejaFragment"
+        android:label="Bandeja"
+        tools:layout="@layout/fragment_bandeja" />
+
+    <fragment
+        android:id="@+id/tickets"
+        android:name="emily.jacobo.crudhelpdesk.Tickets"
+        android:label="fragment_tickets"
+        tools:layout="@layout/fragment_tickets" />
+    <fragment
+        android:id="@+id/bandeja"
+        android:name="emily.jacobo.crudhelpdesk.Bandeja"
+        android:label="fragment_bandeja2"
+        tools:layout="@layout/fragment_bandeja2" />
+</navigation>

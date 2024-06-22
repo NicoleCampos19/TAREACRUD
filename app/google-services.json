@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "885541745565",
+    "project_id": "crud1a",
+    "storage_bucket": "crud1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885541745565:android:80a1c4fc48a74f7b0fb574",
+        "android_client_info": {
+          "package_name": "emily.jacobo.crudhelpdesk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0FBSjNZCZoecoDpqkz5fXgkmKZnoDLqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
